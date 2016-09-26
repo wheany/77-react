@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/components/questions.ts",
+        "./src/components/answers.ts",
+        "./src/components/cards.tsx",
+        "./src/77.tsx"
+    ]
+}

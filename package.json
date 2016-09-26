@@ -1,0 +1,30 @@
+{
+    "name": "77-react",
+    "version": "1.0.0",
+    "description": "77 hauskaa kysymystä ja vekkulia vastausta",
+    "main": "./dist/bundle.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublish": "typings install",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wheany/77-react.git"
+    },
+    "author": "wheany",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wheany/77-react/issues"
+    },
+    "homepage": "https://github.com/wheany/77-react#readme",
+    "dependencies": {
+        "lodash": "^4.16.2",
+        "react": "^15.3.2",
+        "react-dom": "^15.3.2"
+    },
+    "devDependencies": {
+        "source-map-loader": "^0.1.5",
+        "ts-loader": "^0.8.2"
+    }
+}
