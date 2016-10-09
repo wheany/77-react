@@ -31,15 +31,17 @@ body {
 
 .heart, .spade, .club, .diamond {
   position: absolute;
-  font-size: 61px;
+  width: 45px;
+  height: 45px;
 }
 
+
 .heart, .spade {
-  top: 2px;
+  top: 10px;
 }
 
 .club, .diamond {
-  bottom: 5px;
+  bottom: 10px;
 }
 
 .heart, .club {

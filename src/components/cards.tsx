@@ -9,8 +9,13 @@ interface CardFrontProps {
 class CardFront extends React.Component<CardFrontProps, {}> {
     render() {
         return (
-            <div className={this.props.className + " card"}><i className="heart">♥</i><i
-                className="club">♣</i>{this.props.card}<i className="spade">♠</i><i className="diamond">♦</i></div>
+            <div className={this.props.className + " card"}>
+                <img src={"img/hearts-" + this.props.className + ".svg"} className="heart"/>
+                <img src={"img/clubs-" + this.props.className + ".svg"} className="club"/>
+                {this.props.card}
+                <img src={"img/spades-" + this.props.className + ".svg"} className="spade"/>
+                <img src={"img/diamonds-" + this.props.className + ".svg"} className="diamond"/>
+            </div>
         );
     }
 }
