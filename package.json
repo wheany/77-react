@@ -5,7 +5,7 @@
     "main": "./dist/bundle.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublish": "typings install",
+        "postinstall": "typings install && webpack",
         "build": "webpack"
     },
     "repository": {
@@ -25,6 +25,9 @@
     },
     "devDependencies": {
         "source-map-loader": "^0.1.5",
-        "ts-loader": "^0.8.2"
+        "ts-loader": "^0.8.2",
+        "typescript": "^2.0.3",
+        "typings": "^1.4.0",
+        "webpack": "^1.13.2"
     }
 }
